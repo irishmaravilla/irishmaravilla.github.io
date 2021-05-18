@@ -1,0 +1,30 @@
+body,
+html{
+    height: 100%;
+    width: 100%;
+    background: url(Forest.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+/* hindi nagana ung settings sa button ung text tranform lang  */
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-danger{
+    background-color: tomato;
+}
+.btn-danger: hover {
+    background-color: wheat;
+
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
